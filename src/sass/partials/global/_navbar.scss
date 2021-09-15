@@ -1,0 +1,81 @@
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  margin-left: 50px;
+}
+
+.navbar-nav a {
+  padding-left: 30px;
+  text-decoration: none;
+  padding: 0px 10px 0px 10px;
+  border-radius: 3px;
+  color: #0a0a0a;
+}
+
+.logo {
+  margin-left: 50px;
+  color: #e92569 !important;
+  font: italic small-caps bold 12px/30px "Playfair Display", serif;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.col {
+  flex: 1 0;
+}
+
+.row {
+  --bs-gutter-x: 0rem !important;
+}
+
+.d-flex {
+  width: 35%;
+  float: right;
+  margin-right: 50px;
+}
+
+.form-control {
+  border-radius: 5px 0px 0px 5px !important;
+  padding-left: 30px !important;
+}
+
+.btn {
+  border-radius: 0px 5px 5px 0px !important;
+  background-color: #e92569 !important;
+  border: none !important;
+}
+
+.navbar-toggler {
+  margin-right: 25px;
+  border: none !important;
+}
+
+@media screen and (max-width: 992px) {
+  .d-flex {
+    width: 90%;
+    float: none;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .navbar-nav {
+    margin-left: 0;
+  }
+  .navbar-collapse {
+    box-shadow: 0px 4px 10px -4px gray;
+  }
+
+  .navbar-nav a {
+    margin-top: 20px;
+    padding-left: 66px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar-nav a.active {
+    width: 100%;
+  }
+}

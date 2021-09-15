@@ -1,0 +1,29 @@
+// this didnt work for me for some reason would love input on why it didnt change colours on react components.
+
+$colour-primary: #e92569;
+$colour-secondary: #ffffff;
+$colour-button: #767676;
+$colour-navbar: #efefef;
+
+$theme-colors: (
+  "primary": $colour-primary,
+  "dark": $colour-button,
+  "light": $colour-secondary,
+  "gray": $colour-navbar,
+);
+
+@import "~bootstrap/scss/bootstrap";
+
+//Global
+@import "./partials/global/navbar";
+@import "./partials/global/footer";
+@import "./partials/global/gradient";
+
+//Home
+@import "./partials/home/tabs";
+@import "./partials/home/carousel";
+@import "./partials/home/titleParagraph";
+
+//News
+
+//Contact

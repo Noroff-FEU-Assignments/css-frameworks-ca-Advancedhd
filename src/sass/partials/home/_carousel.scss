@@ -1,0 +1,22 @@
+.carousel-indicators button {
+  background-color: #ffffff !important;
+  height: 30px !important;
+  opacity: 100 !important;
+  transition: none !important;
+  margin-left: 20px !important;
+}
+
+.carousel-indicators .active {
+  background-color: #e92569 !important;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: none !important;
+}
+
+@media screen and (max-width: 992px) {
+  .carousel-item img {
+    height: 280px;
+  }
+}

@@ -1,0 +1,24 @@
+.title {
+  width: 95%;
+  margin: auto;
+  margin-top: 35px;
+  color: #e92569;
+  font-family: "Playfair Display";
+}
+
+.paragraph {
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+  font-family: "Lato";
+}
+
+@media screen and (max-width: 992px) {
+  .title {
+    width: 80%;
+  }
+
+  .paragraph {
+    width: 80%;
+  }
+}
