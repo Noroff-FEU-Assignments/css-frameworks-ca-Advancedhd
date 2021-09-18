@@ -1,18 +1,15 @@
 .carousel-indicators button {
-  background-color: #ffffff !important;
-  height: 30px !important;
-  opacity: 100 !important;
-  transition: none !important;
-  margin-left: 20px !important;
+  background-color: #ffffff;
+  transition: none;
 }
 
 .carousel-indicators .active {
-  background-color: #e92569 !important;
+  background-color: #e92569;
 }
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
-  display: none !important;
+  display: none;
 }
 
 @media screen and (max-width: 992px) {

@@ -1,0 +1,43 @@
+.card-body .btn {
+  border-right: 35px solid #767676;
+  width: 90%;
+  border-radius: 5px;
+  height: 45px;
+  margin-left: 5px;
+}
+
+.card {
+  margin-bottom: 40px;
+  width: 400px;
+  border-radius: 10px;
+  font-family: "lato";
+}
+
+.card img {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-body h5,
+.card-text {
+  padding: 7px;
+}
+
+.card__container {
+  max-width: 90%;
+  padding: 0px;
+  margin: auto;
+}
+
+@media screen and (max-width: 992px) {
+  .row__two_products {
+    display: none;
+  }
+
+  .card {
+    margin-left: 20px;
+  }
+}

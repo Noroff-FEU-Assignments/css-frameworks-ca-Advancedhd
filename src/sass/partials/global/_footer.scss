@@ -1,7 +1,24 @@
 .footercontainer {
-  margin-top: 100px !important;
-  background-color: white;
-  max-width: 100% !important;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  display: block;
+  max-width: 100%;
+  background-color: #ffffff;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 18%;
+}
+
+.footer__icons__mobile {
+  margin-left: 30%;
+  margin-bottom: 20px;
+  width: auto;
+}
+
+.icons {
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .footericons {
+    display: none;
+  }
 }

@@ -1,0 +1,70 @@
+.form__container {
+  background-color: #efefef;
+  padding: 30px;
+  float: left;
+  margin-left: 8%;
+  width: 80%;
+  margin-bottom: 200px;
+}
+
+.contact__row {
+  margin-top: 80px;
+}
+
+.form-check-input {
+  background-color: #e92569;
+  border: none;
+  height: 20px;
+  width: 20px;
+}
+
+.form-check-label {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.input-group-text {
+  background-color: #c7c7c7;
+  color: #ffffff;
+}
+
+.form__button {
+  background-color: #767676;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 10px;
+  height: 50px;
+}
+
+.contact__info__container {
+  margin-top: 6%;
+}
+
+.contact__info__container p {
+  margin-bottom: 20px;
+}
+
+.contact__info__container p i {
+  margin-right: 30px;
+  text-align: center;
+}
+
+.contact__position p {
+  margin-bottom: 0px;
+}
+.contact__position__p {
+  margin-left: 56px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact__info__container {
+    margin-top: -5%;
+  }
+  .contact__info__container p {
+    margin-left: 15%;
+  }
+
+  .contact__position__p {
+    margin-left: 128px !important;
+  }
+}

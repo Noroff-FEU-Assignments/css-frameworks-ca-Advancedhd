@@ -1,0 +1,27 @@
+.pages__container {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+
+.pages__container .pages__button__two,
+.pages__button__three,
+.pages__button__four {
+  padding: 20px 33px 20px 33px;
+  border: 1px solid #e92569;
+  background-color: #ffffff;
+  color: #e92569;
+}
+
+.pages__button__one {
+  border: 1px solid #e92569;
+  padding: 20px 33px 20px 33px;
+  border-radius: 5px 0px 0px 5px;
+  background-color: #e92569;
+  color: #ffffff;
+}
+
+.pages__button__four {
+  border-radius: 0px 5px 5px 0px;
+}

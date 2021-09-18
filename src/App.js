@@ -1,10 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import GlobalNavbar from "./aGlobalComponents/navbar";
-import Footer from "./aGlobalComponents/footer";
+import GlobalNavbar from "./GlobalComponents/navbar";
+import Footer from "./GlobalComponents/footer";
 import Carousel from "./HomeComponents/carousel/carousel";
 import TitleParagraph from "./HomeComponents/TitleParagraph/TitleParagraph";
 import Tabs from "./HomeComponents/tabs/tabs";
+import Heading from "./News/components/heading";
+import Pages from "./News/components/pages";
+import ProductCards from "./News/components/productCards";
+import ContactForm from "./Contact/components/contactForm";
 import "./sass/style.scss";
 
 export default function BasicExample() {
@@ -14,19 +18,17 @@ export default function BasicExample() {
         <div>
           <Router>
             <GlobalNavbar />
-            <main>
-              <Switch>
-                <Route exact path="/home">
-                  <Home />
-                </Route>
-                <Route path="/news">
-                  <News />
-                </Route>
-                <Route path="/contact">
-                  <Contact />
-                </Route>
-              </Switch>
-            </main>
+            <Switch>
+              <Route exact path="/home">
+                <Home />
+              </Route>
+              <Route path="/news">
+                <News />
+              </Route>
+              <Route path="/contact">
+                <Contact />
+              </Route>
+            </Switch>
           </Router>
         </div>
         <Footer />
@@ -47,16 +49,19 @@ function Home() {
 
 function News() {
   return (
-    <div>
-      <h2>About</h2>
-    </div>
+    <>
+      <Heading />
+      <Pages />
+      <ProductCards />
+      <Pages />
+    </>
   );
 }
 
 function Contact() {
   return (
-    <div>
-      <h2>Dashboard</h2>
-    </div>
+    <>
+      <ContactForm />
+    </>
   );
 }

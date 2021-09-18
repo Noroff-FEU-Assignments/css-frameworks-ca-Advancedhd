@@ -17,7 +17,10 @@ function tabs() {
               <Container fluid>
                 <Row>
                   <Col className="tabimg">
-                    <img src="https://i.imgur.com/nr1hwpD.jpg" />
+                    <img
+                      src="https://i.imgur.com/nr1hwpD.jpg"
+                      alt="of a tv in a room"
+                    />
                   </Col>
                   <Col className="tabcontent">
                     <p>
@@ -40,7 +43,10 @@ function tabs() {
               <Container fluid>
                 <Row>
                   <Col className="tabimg">
-                    <img src="https://i.imgur.com/mfuH8zU.jpg" />
+                    <img
+                      src="https://i.imgur.com/mfuH8zU.jpg"
+                      alt="A wall full of coffee pictures"
+                    />
                   </Col>
                   <Col className="tabcontent">
                     <p>
@@ -63,7 +69,10 @@ function tabs() {
               <Container fluid>
                 <Row>
                   <Col className="tabimg">
-                    <img src="https://i.imgur.com/eudlfot.jpg" />
+                    <img
+                      src="https://i.imgur.com/eudlfot.jpg"
+                      alt="of a wall with a cracked window"
+                    />
                   </Col>
                   <Col className="tabcontent">
                     <p>
@@ -87,39 +96,63 @@ function tabs() {
       </div>
       <Accordion className="d-md-none" defaultActiveKey="one">
         <Accordion.Item eventKey="one">
-          <Accordion.Header>Accordion Item #1</Accordion.Header>
+          <Accordion.Header>First</Accordion.Header>
           <Accordion.Body>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            <p className="accordion__paragraph">
+              Morbi eget efficitur turpis. Vivamus pellentesque tortor massa,
+              venenatis pharetra leo laoreet a. Nullam non eleifend justo, a
+              ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed
+              condimentum mattis rhoncus.{" "}
+            </p>
+            <img
+              src="https://i.imgur.com/nr1hwpD.jpg"
+              alt="of a tv in a room"
+            />
+            <div className="shareicons">
+              <p>SHARE</p>
+              <i className="fab fa-facebook-f fa-2x"></i>
+              <i className="fab fa-twitter fa-2x"></i>
+            </div>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="two">
-          <Accordion.Header>Accordion Item #2</Accordion.Header>
+          <Accordion.Header>Second</Accordion.Header>
           <Accordion.Body>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            <p className="accordion__paragraph">
+              Morbi eget efficitur turpis. Vivamus pellentesque tortor massa,
+              venenatis pharetra leo laoreet a. Nullam non eleifend justo, a
+              ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed
+              condimentum mattis rhoncus.{" "}
+            </p>
+            <img
+              src="https://i.imgur.com/mfuH8zU.jpg"
+              alt="of a wall full of coffee pictures"
+            />
+            <div className="shareicons">
+              <p>SHARE</p>
+              <i className="fab fa-facebook-f fa-2x"></i>
+              <i className="fab fa-twitter fa-2x"></i>
+            </div>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="three">
-          <Accordion.Header>Accordion Item #2</Accordion.Header>
+          <Accordion.Header>Third</Accordion.Header>
           <Accordion.Body>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            <p className="accordion__paragraph">
+              Morbi eget efficitur turpis. Vivamus pellentesque tortor massa,
+              venenatis pharetra leo laoreet a. Nullam non eleifend justo, a
+              ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed
+              condimentum mattis rhoncus.{" "}
+            </p>
+            <img
+              src="https://i.imgur.com/eudlfot.jpg"
+              alt="of a wall with a cracked window"
+            />
+            <div className="shareicons">
+              <p>SHARE</p>
+              <i className="fab fa-facebook-f fa-2x"></i>
+              <i className="fab fa-twitter fa-2x"></i>
+            </div>
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
@@ -128,51 +161,3 @@ function tabs() {
 }
 
 export default tabs;
-
-{
-  /* <Container fluid="md">
-  <Row>
-    <Col><img src="https://i.imgur.com/nr1hwpD.jpg" /></Col>
-    <Col><p>
-                Morbi eget efficitur turpis. Vivamus pellentesque tortor massa,
-                venenatis pharetra leo laoreet a. Nullam non eleifend justo, a
-                ullamcorper turpis. Cras vehicula pharetra lectus non maximus.
-                Sed condimentum mattis rhoncus.{" "}
-              </p>
-              <i class="fab fa-facebook-f"></i>
-              <i class="fab fa-twitter"></i></Col>
-  </Row>
-</Container> */
-}
-
-{
-  /* <Container fluid>
-  <Row>
-    <Col> <img src="https://i.imgur.com/mfuH8zU.jpg" /></Col>
-    <Col><p>
-                Morbi eget efficitur turpis. Vivamus pellentesque tortor massa,
-                venenatis pharetra leo laoreet a. Nullam non eleifend justo, a
-                ullamcorper turpis. Cras vehicula pharetra lectus non maximus.
-                Sed condimentum mattis rhoncus.{" "}
-              </p>
-              <i class="fab fa-facebook-f"></i>
-              <i class="fab fa-twitter"></i></Col>
-  </Row>
-</Container> */
-}
-
-{
-  /* <Container fluid>
-  <Row>
-    <Col><img src="https://i.imgur.com/eudlfot.jpg" /></Col>
-    <Col><p>
-                Morbi eget efficitur turpis. Vivamus pellentesque tortor massa,
-                venenatis pharetra leo laoreet a. Nullam non eleifend justo, a
-                ullamcorper turpis. Cras vehicula pharetra lectus non maximus.
-                Sed condimentum mattis rhoncus.{" "}
-              </p>
-              <i class="fab fa-facebook-f"></i>
-              <i class="fab fa-twitter"></i></Col>
-  </Row>
-</Container> */
-}

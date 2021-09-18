@@ -1,0 +1,18 @@
+$primary: #e92569;
+$secondary: #ffffff;
+$button: #767676;
+$navbar: #efefef;
+
+$theme-colors: (
+  "primary": $primary,
+  "dark": $button,
+  "light": $secondary,
+  "gray": $navbar,
+);
+
+$btn-border-radius: 0px 5px 5px 0px;
+$carousel-indicator-height: 30px;
+$carousel-indicator-opacity: 100;
+$carousel-indicator-spacer: 15px;
+$navbar-light-color: #e92569;
+$accordion-border-radius: 10px;
